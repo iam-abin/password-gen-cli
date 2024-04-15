@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 import { program } from "commander";
 import chalk from "chalk";
 import clipboard from "clipboardy";
@@ -21,7 +20,7 @@ program.version("1.0.0").description(styledDescriptionText);
 
 program
 	.option("-l, --length <number>", "length of password", "8")
-	.option("-s, --save", "save password to password.tst")
+	.option("-s, --save", "save password to password.txt")
 	.option("-nn, --no-numbers", "remove numbers")
 	.option("-ns, --no-symbols", "remove symbols")
 	.parse();

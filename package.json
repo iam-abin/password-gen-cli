@@ -4,6 +4,8 @@
   "type": "module",
   "description": "password generator cli",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
