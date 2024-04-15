@@ -29,7 +29,7 @@
 ```
 node index -h
 ```
-![alt text](public/image.png)
+![alt text](public/help.png)
 
 options eg:-
 To generate password of length 13, we can use as
